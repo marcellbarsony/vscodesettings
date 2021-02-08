@@ -1,5 +1,4 @@
-# vscodesettings
-Visual Studio Code: Settings
+# Visual Studio Code: Settings
 
 OS Path:
 
