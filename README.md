@@ -9,9 +9,12 @@ OS Path:
 
 > Linux:  $HOME/.config/Code/User/settings.json
 
-
 Hotkeys:
 
 > Settings: Ctrl + [,]
 
 > Command Palette: Ctrl + Shift + [P]
+
+Generate color theme from current settings:
+
+> Developer: Generate Color Theme From Current Settings
