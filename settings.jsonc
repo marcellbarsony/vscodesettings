@@ -1,45 +1,40 @@
 {
-
 // Text Editor
 
+// Global
   "workbench.welcome.enabled": false, // Welcome screen
   "editor.minimap.enabled": true, // Minimap
   "editor.minimap.maxColumn": 120, // Minimap max column
   "editor.wordWrap": "on", // Wordwrap
 
-  // Fonts
+// Fonts
+  "editor.fontSize": 15, // Font size
+  "editor.fontFamily": "Consolas, 'Courier New', monospace", // Font family
+  "editor.fontLigatures": true, // Font ligatures
 
-    "editor.fontSize": 15, // Font size
-    "editor.fontFamily": "Consolas, 'Courier New', monospace", // Font family
+// Tab size & Whitespace
+  "editor.tabSize": 4, // Tab size
+  "editor.insertSpaces": true, // Insert spaces
+  "editor.detectIndentation": true, // Detect Indentation
+  "files.trimTrailingWhitespace": true, // Trim trailing whitespace
+  "editor.renderWhitespace": "boundary", // Render whitespace
 
-  // Tab size & Whitespace
+// Mouse & Scroll
+  "editor.mouseWheelZoom": true, // Mouse wheel zoom
+  "editor.mouseWheelScrollSensitivity": 3, // Mouse scroll sensitivity
+  "editor.fastScrollSensitivity": 5, // Fast mouse scroll sensitivity
+  "editor.hover.delay": 300, // Editor hover delay
 
-    "editor.tabSize": 4, // Tab size
-    "editor.insertSpaces": true, // Insert spaces
-    "editor.detectIndentation": true, // Detect Indentation
-    "files.trimTrailingWhitespace": true, // Trim trailing whitespace
-    "editor.renderWhitespace": "boundary", // Render whitespace
+// Cursor
+  "editor.cursorStyle": "line", // Style
+  "editor.cursorBlinking": "phase", // Blinking
+  "editor.cursorWidth": 0, // Width
 
-  // Mouse & Scroll
-
-    "editor.mouseWheelZoom": true, // Mouse wheel zoom
-    "editor.mouseWheelScrollSensitivity": 3, // Mouse scroll sensitivity
-    "editor.fastScrollSensitivity": 5, // Fast mouse scroll sensitivity
-    "editor.hover.delay": 300, // Editor hover delay
-
-  // Cursor
-
-    "editor.cursorStyle": "line", // Style
-    "editor.cursorBlinking": "phase", // Blinking
-    "editor.cursorWidth": 0, // Width
-
-  // Find
-
+// Find
   "editor.find.addExtraSpaceOnTop": true, // Extra space on top
   "editor.find.cursorMoveOnType": true, // Cursor move on type
 
-  // Colors
-
+// Colors
   "workbench.colorTheme": "SynthWave '84", // Color theme
 
   "workbench.colorCustomizations": {
@@ -48,38 +43,37 @@
     "editor.hoverHighlightBackground": "#463564" // Text highlight on hover
   },
 
-  // Exclude file extensions
+// Exclude file extensions
   "files.exclude": {
-      "**/*.build": true,
-      "**/*.git": true,
-      "**/*.err": true,
-      "**/*.rec": true,
-      "**/*.log": true,
-      "**/*.evt": true,
-      "**/buildfre.*": true,
-      "**/buildchk.*": true,
-      "**/.DS_Store": true
+    "**/*.build": true,
+    "**/*.git": true,
+    "**/*.err": true,
+    "**/*.rec": true,
+    "**/*.log": true,
+    "**/*.evt": true,
+    "**/buildfre.*": true,
+    "**/buildchk.*": true,
+    "**/.DS_Store": true
   },
 
-  // Exclude search extensions
+// Exclude search extensions
   "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      ".build/**": true,
-      "out*/**": true,
-      "i18n/**": true,
-      "extensions/**/out/**": true,
-      "*.min.js": true
+    "**/node_modules": true,
+    "**/bower_components": true,
+    ".build/**": true,
+    "out*/**": true,
+    "i18n/**": true,
+    "extensions/**/out/**": true,
+    "*.min.js": true
   },
 
-  // Auto closing
+// Auto closing & Suggestion
+  "editor.autoClosingBrackets": "languageDefined", // Brackets
+  "editor.autoClosingQuotes": "languageDefined", // Quotes
+  "editor.autoSurround": "languageDefined", // Surround
+  "editor.acceptSuggestionOnEnter": "off", // Accept suggestions on Enter
 
-    "editor.autoClosingBrackets": "languageDefined", // Brackets
-    "editor.autoClosingQuotes": "languageDefined", // Quotes
-    "editor.autoSurround": "languageDefined", // Surround
-
-  // MISC
-
+// MISC
   "editor.letterSpacing": 0, // Letter spacing
   "editor.lightbulb.enabled": true, // Lightbulb
   "editor.lineHeight": 0, // Line height
@@ -88,7 +82,7 @@
   "editor.matchBrackets": "always", // Highlight matching brackets
   "editor.occurrencesHighlight": true, // Occurrences highlight
   "editor.overviewRulerBorder": true, // Overview ruler border
-  "editor.padding.bottom": 0, //Padding bottom
+  "editor.padding.bottom": 0, // Padding bottom
   "editor.padding.top": 0, // Padding top
   "editor.parameterHints.enabled": true, // Parameter hints
   "editor.rename.enablePreview": true, // Rename: enable preview
@@ -100,5 +94,4 @@
   "files.autoSave": "afterDelay",
   "files.trimFinalNewlines": true, // Trim extra lines
   "explorer.sortOrder": "type", // Sort files by type in File explorer
-  "editor.acceptSuggestionOnEnter": "off" // Accept suggestions on Enter
 }
