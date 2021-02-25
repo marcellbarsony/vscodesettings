@@ -8,7 +8,7 @@ OS Path:
 
 > Linux:  $HOME/.config/Code/User/settings.json
 
-Hotkeys:
+Visual Studio Hotkeys:
 
 > Settings: Ctrl + [,]
 
