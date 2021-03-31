@@ -13,7 +13,7 @@
   "editor.fontLigatures": true, // Font ligatures
 
 // Tab size & Whitespace
-  "editor.tabSize": 4, // Tab size
+  "editor.tabSize": 2, // Tab size
   "editor.insertSpaces": true, // Insert spaces
   "editor.detectIndentation": true, // Detect Indentation
   "files.trimTrailingWhitespace": true, // Trim trailing whitespace
