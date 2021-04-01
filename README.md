@@ -1,6 +1,6 @@
 # Visual Studio Code: Settings
 
-OS Path:
+OS Path
 
 > Windows: %APPDATA%\Code\User\settings.json
 
@@ -8,7 +8,7 @@ OS Path:
 
 > Linux:  $HOME/.config/Code/User/settings.json
 
-Visual Studio Hotkeys:
+Visual Studio Hotkeys
 
 > Settings: Ctrl + [,]
 
@@ -17,3 +17,9 @@ Visual Studio Hotkeys:
 Generate color theme from current settings:
 
 > Developer: Generate Color Theme From Current Settings
+
+Extensions
+
+Color Theme
+
+> [Synthwave '84](https://robbowen.digital/) [[Install]](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode) [[GitHub]](https://github.com/robb0wen/synthwave-vscode) 
